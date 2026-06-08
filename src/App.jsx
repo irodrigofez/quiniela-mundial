@@ -3,9 +3,6 @@ import { useState, useEffect } from "react";
 import { db } from "./firebase";
 import { ref, onValue, set, get } from "firebase/database";
 
-// ============================================================
-//  PASO 2: Cambia los nombres de los participantes si quieres
-// ============================================================
 const PARTICIPANTES = ["Chava 👦", "Angie 👧", "Iván 👨", "Lulú 👩", "Diego ⭐"];
 
 const PARTIDOS_GRUPOS = [
